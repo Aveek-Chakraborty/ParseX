@@ -8,8 +8,8 @@ export default function Page() {
     <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
       <img
         alt=""
-        src="https://images.unsplash.com/photo-1607798748738-b15c40d33d57?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D"
-        className="absolute inset-0 h-full w-full object-cover opacity-80"
+        src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        className="absolute inset-0 h-full w-full object-fit opacity-80"
       />
 
       <div className="hidden lg:relative lg:block lg:p-12">
