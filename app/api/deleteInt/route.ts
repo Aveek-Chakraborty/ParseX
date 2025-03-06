@@ -12,7 +12,10 @@ export async function DELETE(req: NextRequest) {
     }
     try {
         const res = await db.delete(InterpData).where(eq(InterpData.id, query));
-        return NextResponse.json({ "message": "deleted" });
+        if(res.rowCount > 0){return NextResponse.json({ "message": "deleted" });}
+        else {
+            return NextResponse.json({ "message": "not deleted" });
+        }
     } catch (error) {
         return NextResponse.json({ "message": "not deleted" });
     }
